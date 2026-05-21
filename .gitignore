@@ -1,0 +1,24 @@
+# Node
+node_modules/
+dist/
+
+# Laravel
+/vendor
+/storage/*.key
+/storage/logs/*
+/.env
+
+# Python
+__pycache__/
+*.pyc
+
+# Docker
+docker-data/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
