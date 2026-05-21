@@ -1,0 +1,15 @@
+---
+description: AI workflow and implementation process
+alwaysApply: true
+---
+
+- Always analyze existing architecture before coding.
+- Never create files without justification.
+- Never introduce new dependencies without explanation.
+- Explain major architectural decisions.
+- Implement features incrementally.
+- Avoid large unreviewed changes.
+- Prefer iterative development.
+- Review generated code before continuing.
+- Never modify unrelated files.
+- Ask for clarification when requirements are ambiguous.

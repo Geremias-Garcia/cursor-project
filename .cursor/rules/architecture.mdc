@@ -1,0 +1,50 @@
+---
+description: Global architecture and system design rules
+alwaysApply: true
+---
+
+# Architecture Rules
+
+- Follow clean and scalable architecture principles.
+- Prioritize maintainability over fast implementation.
+- Avoid tightly coupled modules.
+- Keep domain logic isolated from framework-specific code.
+- Prefer service-oriented design.
+- Use dependency injection whenever possible.
+- Avoid global state.
+- Use composition over inheritance.
+- Avoid premature abstractions.
+- Keep implementations simple and explicit.
+
+# Backend Structure
+
+- Controllers must remain thin.
+- Business rules belong in services/actions.
+- Validation belongs in Form Requests.
+- Data formatting belongs in API Resources.
+- Database access must remain centralized and predictable.
+
+# Frontend Structure
+
+- UI components must remain reusable and isolated.
+- Avoid business logic inside components.
+- Separate state management from presentation.
+
+# Scalability
+
+- Design features considering horizontal scalability.
+- Avoid synchronous heavy operations during requests.
+- Use queues for expensive tasks.
+- Realtime systems must handle concurrency safely.
+
+# Maintainability
+
+- Never duplicate business logic.
+- Prefer explicit naming.
+- Refactor repetitive code.
+- Keep files small and focused.
+
+# Documentation
+
+- Explain architectural decisions when introducing new patterns.
+- Keep README and docs updated when major changes happen.

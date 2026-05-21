@@ -1,0 +1,12 @@
+---
+description: Docker and infrastructure standards
+alwaysApply: true
+---
+
+- Keep Docker setup simple and reproducible.
+- Use multi-service Docker Compose architecture.
+- Separate development and production concerns.
+- Avoid bloated containers.
+- Use environment variables properly.
+- Keep infrastructure documented.
+- Prefer deterministic builds.

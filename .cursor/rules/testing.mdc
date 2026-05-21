@@ -1,0 +1,12 @@
+---
+description: Automated testing standards
+alwaysApply: true
+---
+
+- Critical business flows must have tests.
+- Test edge cases.
+- Test authorization flows.
+- Test transactional consistency.
+- Avoid brittle tests.
+- Prefer integration and feature tests for business flows.
+- Mock external services appropriately.

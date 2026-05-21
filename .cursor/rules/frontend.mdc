@@ -1,0 +1,60 @@
+---
+description: Frontend architecture and UI standards
+alwaysApply: true
+---
+
+# Frontend Standards
+
+- Prioritize readability and maintainability.
+- Use component-based architecture.
+- Keep components small and reusable.
+- Avoid deeply nested components.
+
+# State Management
+
+- Keep local state local.
+- Avoid unnecessary global state.
+- Separate UI state from business state.
+
+# Components
+
+- Components must have single responsibility.
+- Avoid large monolithic pages.
+- Extract reusable UI patterns.
+
+# Styling
+
+- Use TailwindCSS consistently.
+- Prefer utility classes over custom CSS.
+- Maintain consistent spacing and layout patterns.
+
+# Accessibility
+
+- Use semantic HTML.
+- Ensure keyboard accessibility.
+- Use accessible labels and forms.
+- Avoid inaccessible interactive elements.
+
+# Performance
+
+- Avoid unnecessary re-renders.
+- Lazy load heavy components when appropriate.
+- Optimize realtime rendering updates.
+
+# API Communication
+
+- Centralize API requests.
+- Handle loading and error states consistently.
+- Never trust frontend validation alone.
+
+# Realtime UI
+
+- Realtime updates must feel responsive.
+- Prevent duplicate updates.
+- Handle reconnect states gracefully.
+
+# UX
+
+- Always provide feedback for user actions.
+- Use optimistic UI carefully.
+- Avoid confusing interactions.

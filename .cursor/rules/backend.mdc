@@ -1,0 +1,68 @@
+---
+description: Backend Laravel development rules
+alwaysApply: true
+---
+
+# Laravel Standards
+
+- Use Laravel 11 conventions whenever appropriate.
+- Use strict typing.
+- Use typed properties and return types.
+- Prefer readonly dependencies when possible.
+
+# Controllers
+
+- Controllers must remain thin.
+- Controllers should orchestrate actions only.
+- Never place business logic in controllers.
+
+# Validation
+
+- Use Form Requests for validation.
+- Never validate directly inside controllers.
+- Keep validation explicit and readable.
+
+# Services
+
+- Business rules belong in service classes or actions.
+- Services should have single responsibility.
+- Avoid massive service classes.
+
+# Database
+
+- Use transactions for critical operations.
+- Prevent race conditions in bidding operations.
+- Use pessimistic locking when necessary.
+- Avoid N+1 queries.
+- Use eager loading intentionally.
+
+# API Design
+
+- Use API Resources for responses.
+- Maintain consistent JSON structure.
+- Use proper HTTP status codes.
+- Never expose internal implementation details.
+
+# Authentication & Authorization
+
+- Use Laravel Sanctum.
+- Use policies and gates for authorization.
+- Never trust frontend authorization checks.
+
+# Realtime
+
+- WebSocket events must be minimal and efficient.
+- Avoid broadcasting unnecessary data.
+- Realtime updates must remain idempotent.
+
+# Performance
+
+- Cache expensive queries.
+- Use queues for heavy tasks.
+- Avoid blocking operations.
+
+# Testing
+
+- Create feature tests for critical flows.
+- Create unit tests for business rules.
+- Test transactional consistency.

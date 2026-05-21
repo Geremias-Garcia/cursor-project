@@ -1,0 +1,65 @@
+---
+description: Security and defensive programming rules
+alwaysApply: true
+---
+
+# Security Rules
+
+- Treat all user input as untrusted.
+- Validate and sanitize all incoming data.
+- Never expose sensitive internal information.
+
+# Authentication
+
+- Use secure authentication practices.
+- Never store plaintext secrets.
+- Use environment variables for sensitive configuration.
+- Protect routes properly.
+
+# Authorization
+
+- Always verify ownership and permissions.
+- Never rely on frontend authorization.
+- Use policies and gates consistently.
+
+# Database Security
+
+- Use parameterized queries only.
+- Prevent mass assignment vulnerabilities.
+- Protect transactional consistency.
+
+# Auction Security
+
+- Prevent race conditions during bidding.
+- Use transactions for all bid operations.
+- Ensure bids cannot bypass minimum increments.
+- Prevent bidding after auction expiration.
+
+# File Uploads
+
+- Validate file types and sizes.
+- Never trust uploaded file extensions.
+- Store uploads securely.
+
+# API Security
+
+- Rate limit sensitive endpoints.
+- Avoid leaking stack traces.
+- Return safe error messages.
+
+# Realtime Security
+
+- Authenticate websocket connections.
+- Prevent unauthorized event subscriptions.
+- Avoid broadcasting sensitive data.
+
+# Logging
+
+- Never log secrets or passwords.
+- Log security-relevant events appropriately.
+
+# Dependencies
+
+- Avoid unnecessary packages.
+- Prefer mature and maintained libraries.
+- Watch for vulnerable dependencies.
