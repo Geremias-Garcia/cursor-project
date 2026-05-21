@@ -3,6 +3,10 @@ description: Docker and infrastructure standards
 alwaysApply: true
 ---
 
+# Canonical source
+
+[docs/infrastructure.md](../../docs/infrastructure.md)
+
 - Keep Docker setup simple and reproducible.
 - Use multi-service Docker Compose architecture.
 - Separate development and production concerns.

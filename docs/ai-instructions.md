@@ -2,6 +2,8 @@
 
 You are working on a production-oriented real-time auction platform.
 
+**Before coding:** read [DOCUMENTATION.md](./DOCUMENTATION.md) and relevant [ADRs](./adr/README.md).
+
 You must follow these rules strictly:
 
 - Never create duplicated business logic.

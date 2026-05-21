@@ -3,6 +3,10 @@ description: Backend Laravel development rules
 alwaysApply: true
 ---
 
+# Canonical source
+
+Bidding: [docs/adr/001-bidding.md](../../docs/adr/001-bidding.md). Realtime: [docs/adr/003-realtime.md](../../docs/adr/003-realtime.md). Auth: [docs/adr/004-auth.md](../../docs/adr/004-auth.md).
+
 # Laravel Standards
 
 - Use Laravel 11 conventions whenever appropriate.

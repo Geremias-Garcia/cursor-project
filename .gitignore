@@ -1,24 +1,86 @@
-# Node
-node_modules/
-dist/
+# =========================
+# ENVIRONMENT
+# =========================
 
-# Laravel
-/vendor
-/storage/*.key
-/storage/logs/*
-/.env
+.env
+.env.*
+!.env.example
 
-# Python
-__pycache__/
-*.pyc
+# =========================
+# LARAVEL
+# =========================
 
-# Docker
+backend/vendor/
+backend/node_modules/
+backend/public/build/
+backend/bootstrap/cache/*
+backend/storage/*.key
+backend/storage/logs/*
+backend/storage/framework/cache/*
+backend/storage/framework/sessions/*
+backend/storage/framework/testing/*
+backend/storage/framework/views/*
+
+# =========================
+# FRONTEND
+# =========================
+
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.vite/
+
+# =========================
+# DOCKER
+# =========================
+
 docker-data/
+postgres-data/
+redis-data/
 
+# =========================
+# LOGS
+# =========================
+
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
 # IDE
+# =========================
+
 .vscode/
 .idea/
 
-# OS
+# =========================
+# OS FILES
+# =========================
+
 .DS_Store
 Thumbs.db
+
+# =========================
+# TESTS / COVERAGE
+# =========================
+
+coverage/
+.phpunit.result.cache
+
+# =========================
+# CACHE
+# =========================
+
+.cache/
+.tmp/
+.temp/
+
+# =========================
+# COMPOSER / NPM LOCKS
+# (optional — usually keep them)
+# =========================
+
+# composer.lock
+# package-lock.json
+# yarn.lock

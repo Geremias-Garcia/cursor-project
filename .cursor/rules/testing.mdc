@@ -3,6 +3,10 @@ description: Automated testing standards
 alwaysApply: true
 ---
 
+# Canonical source
+
+Test gates per phase: [docs/roadmap.md](../../docs/roadmap.md). Bid tests required in Phase 3a before WebSockets.
+
 - Critical business flows must have tests.
 - Test edge cases.
 - Test authorization flows.

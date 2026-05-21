@@ -3,6 +3,10 @@ description: AI workflow and implementation process
 alwaysApply: true
 ---
 
+# Canonical source
+
+[docs/ai-instructions.md](../../docs/ai-instructions.md), [docs/DOCUMENTATION.md](../../docs/DOCUMENTATION.md)
+
 - Always analyze existing architecture before coding.
 - Never create files without justification.
 - Never introduce new dependencies without explanation.

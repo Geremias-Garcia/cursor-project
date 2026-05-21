@@ -3,6 +3,10 @@ description: Global architecture and system design rules
 alwaysApply: true
 ---
 
+# Canonical source
+
+Authoritative docs: [docs/DOCUMENTATION.md](../../docs/DOCUMENTATION.md), [docs/adr/](../../docs/adr/). Implement per ADRs before inventing patterns.
+
 # Architecture Rules
 
 - Follow clean and scalable architecture principles.

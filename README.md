@@ -55,12 +55,13 @@ The project follows:
 
 ## Documentation
 
-Detailed documentation is available in:
-
-```text
-/docs
-```
+| Resource | Description |
+|----------|-------------|
+| [docs/DOCUMENTATION.md](docs/DOCUMENTATION.md) | Index and canonical source policy |
+| [docs/adr/](docs/adr/) | Architecture Decision Records (bidding, auth, realtime) |
+| [docs/roadmap.md](docs/roadmap.md) | Implementation phases |
+| [docs/infrastructure.md](docs/infrastructure.md) | Docker Compose and observability |
 
 ## Development Status
 
-Currently in architecture and infrastructure planning phase.
+Architecture specification complete (ADRs + infrastructure docs). Application scaffolding starts at **Phase 1** per roadmap.

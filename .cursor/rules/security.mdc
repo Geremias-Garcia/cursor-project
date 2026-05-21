@@ -3,6 +3,10 @@ description: Security and defensive programming rules
 alwaysApply: true
 ---
 
+# Canonical source
+
+Auth: [docs/adr/004-auth.md](../../docs/adr/004-auth.md). Bidding: [docs/adr/001-bidding.md](../../docs/adr/001-bidding.md). Continuous security per [docs/roadmap.md](../../docs/roadmap.md) (not Phase 5 only).
+
 # Security Rules
 
 - Treat all user input as untrusted.

@@ -1,0 +1,22 @@
+---
+description: Database design rules
+alwaysApply: true
+---
+
+# Canonical source
+
+Detailed rules: [docs/database-rules.md](../../docs/database-rules.md). Bidding schema: [docs/adr/001-bidding.md](../../docs/adr/001-bidding.md).
+
+# Database Rules
+
+- Prefer PostgreSQL-native features when useful.
+- Use UUIDs for public entities.
+- Use foreign keys internally.
+- Use indexes intentionally.
+- Avoid nullable fields when unnecessary.
+- Use timestamps consistently.
+- Keep migrations reversible.
+- Bid history must remain immutable (no UPDATE/soft delete on `bids`).
+- Auctions may soft-delete only when no active bids; see ADR-001.
+- Use transactions for all bidding operations.
+- `auctions.revision` integer for optimistic ordering (ADR-003).

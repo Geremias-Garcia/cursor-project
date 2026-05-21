@@ -3,6 +3,10 @@ description: Frontend architecture and UI standards
 alwaysApply: true
 ---
 
+# Canonical source
+
+Realtime UI: [docs/adr/003-realtime.md](../../docs/adr/003-realtime.md). Auth client: [docs/adr/004-auth.md](../../docs/adr/004-auth.md). Contracts: [docs/api-contracts.md](../../docs/api-contracts.md).
+
 # Frontend Standards
 
 - Prioritize readability and maintainability.
