@@ -1,19 +1,14 @@
-# =========================
-# ENVIRONMENT
-# =========================
-
+# Environment
 .env
 .env.*
 !.env.example
 
-# =========================
-# LARAVEL
-# =========================
-
+# Laravel
 backend/vendor/
 backend/node_modules/
 backend/public/build/
 backend/bootstrap/cache/*
+!backend/bootstrap/cache/.gitignore
 backend/storage/*.key
 backend/storage/logs/*
 backend/storage/framework/cache/*
@@ -21,66 +16,28 @@ backend/storage/framework/sessions/*
 backend/storage/framework/testing/*
 backend/storage/framework/views/*
 
-# =========================
-# FRONTEND
-# =========================
-
+# Frontend
 frontend/node_modules/
 frontend/dist/
 frontend/build/
 frontend/.vite/
 
-# =========================
-# DOCKER
-# =========================
-
+# Docker
 docker-data/
 postgres-data/
 redis-data/
 
-# =========================
-# LOGS
-# =========================
-
+# Logs
 *.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
 
-# =========================
 # IDE
-# =========================
-
 .vscode/
 .idea/
 
-# =========================
-# OS FILES
-# =========================
-
+# OS
 .DS_Store
 Thumbs.db
 
-# =========================
-# TESTS / COVERAGE
-# =========================
-
+# Tests / coverage
 coverage/
 .phpunit.result.cache
-
-# =========================
-# CACHE
-# =========================
-
-.cache/
-.tmp/
-.temp/
-
-# =========================
-# COMPOSER / NPM LOCKS
-# (optional — usually keep them)
-# =========================
-
-# composer.lock
-# package-lock.json
-# yarn.lock
